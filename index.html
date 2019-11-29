@@ -87,7 +87,7 @@
             <div class="col-md-6">
               <div class="widget text-white">
                 <ul class="list-inline xs-text-center text-white">
-                  <button onclick="notifyMe()" style="color: blue;">Notify me!</button>
+                  <!-- <button onclick="notifyMe()" style="color: blue;">Notify me!</button> -->
                   <li class="m-0 pl-10 pr-10"> <a href="tel:+23425222557" class="text-white"><i
                         class="fa fa-phone text-theme-colored2"></i> +23425222557</a> </li>
                   <li class="m-0 pl-10 pr-10">
@@ -1263,33 +1263,6 @@
   <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.slideanims.min.js">
   </script>
   <script type="text/javascript" src="js/revolution-slider/js/extensions/revolution.extension.video.min.js"></script>
-  <script>
-    function notifyMe() {
-      // Let's check if the browser supports notifications
-      if (!("Notification" in window)) {
-        alert("This browser does not support desktop notification");
-      }
-
-      // Let's check whether notification permissions have already been granted
-      else if (Notification.permission === "granted") {
-        // If it's okay let's create a notification
-        var notification = new Notification("Hi Lizzmar!");
-      }
-
-      // Otherwise, we need to ask the user for permission
-      else if (Notification.permission !== "denied") {
-        Notification.requestPermission().then(function (permission) {
-          // If the user accepts, let's create a notification
-          if (permission === "granted") {
-            var notification = new Notification("Hi Lizzmar!");
-          }
-        });
-      }
-
-      // At last, if the user has denied notifications, and you 
-      // want to be respectful there is no need to bother them any more.
-    }
-  </script>
 
 </body>
 

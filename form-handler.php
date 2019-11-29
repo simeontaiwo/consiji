@@ -3,7 +3,7 @@ $errors = array();
 $data = array();
 
 $errors = '';
-$myemail = 'ayenijeremiah@gmail.com'; //<-----Put Your email address here.
+$myemail = 'simeontaiwo601@gmail.com'; //<-----Put Your email address here.
 if (
     empty($_POST['name'])  ||
     empty($_POST['email']) ||
