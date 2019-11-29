@@ -66,8 +66,7 @@
                 var form_btn_old_msg = form_btn.html();
                 form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
 
-                var dataString = 'name=' + name + '&email=' + email + '&number=' + number + '&subject=' +
-                  subject + '&message' + message;
+                var dataString = 'name=' + name + '&email=' + email + '&number=' + number + '&subject=' + subject + '&message=' + message;
                 alert(dataString);
 
                 $(form).ajaxSubmit({
