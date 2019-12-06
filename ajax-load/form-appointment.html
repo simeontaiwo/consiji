@@ -67,14 +67,15 @@
                 form_btn.html(form_btn.prop('disabled', true).data("loading-text"));
 
                 var dataString = 'name=' + name + '&email=' + email + '&number=' + number + '&subject=' + subject + '&message=' + message;
-                alert(dataString);
+                console.log(dataString);
 
-                $(form).ajaxSubmit({
+                $.ajax({
                   type: "POST",
-                  url: "../form-handler.php",
+                  url: "/form-handler.php",
                   data: dataString,
                   dataType: 'json',
                   success: function (data) {
+                    console.log(data);
                     if (data.success == 'true') {
                       $(form).find('.form-control').val('');
                     }
