@@ -1,0 +1,438 @@
+/*==============TOP BAR LEFT Right ==========================*/
+
+.kode-financial-bottom-border:before{
+    bottom: -12px;
+    content: "";
+    height: 12px;
+    left: -12px;
+    margin: 0 auto 0 0;
+    position: absolute;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 12px 12px 0;
+	border-color: transparent #0583d1 transparent transparent;
+}
+.kode-financial-bottom-border:after{
+	 background: #fff none repeat scroll 0 0;
+    border-color: #0583d1 transparent transparent;
+    border-style: solid;
+    border-width: 11px 12px 0 0;
+    bottom: -12px;
+    box-shadow: 20px 20px 0 20px #fff;
+    content: "";
+    height: 0;
+    margin: 0 auto 0 0;
+    position: absolute;
+    right: 22px;
+
+}
+/*==============TOP BAR LEFT Right ends==========================*/
+
+/*===================Buttons=====================================*/
+
+.bottom-buttons button{
+	width:285px;
+	height:68px;
+	display:inline-block;
+	color:#fff;
+	position:relative;
+	text-align:center;
+	line-height:70px;
+	margin:0 -2px;
+	/*border:1px solid #fff;*/
+	z-index: 999999;
+	 font-size: 18px;
+    text-transform: uppercase;
+}
+.kode-silder .bottom-buttons .owl-stage-outer{
+	overflow: visible !important;
+}
+.bottom-buttons .owl-item.current{
+	position:relative;
+	display:inline-block;
+}
+.bottom-buttons .owl-stage-outer .owl-stage{
+	transform:none !important; 
+}
+.bottom-buttons .owl-item.active .just-styling:before{
+	top:0px;
+	opacity: 0;
+}
+.bottom-buttons .owl-item.active:hover .just-styling.blue:before,
+.bottom-buttons .owl-item.center .just-styling.blue:before{
+	position:absolute;
+	content:"";
+	top:-8px;
+	left:0px;
+	right:0px;
+	margin:0 auto;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 9px 8px 9px;
+	border-color: transparent transparent #0583d1 transparent;
+	opacity: 1;
+}
+.bottom-buttons .owl-item.active:hover .just-styling.skybule:before,
+.bottom-buttons .owl-item.center .just-styling.skybule:before{
+	position:absolute;
+	content:"";
+	top:-8px;
+	left:0px;
+	right:0px;
+	margin:0 auto;
+	width: 0;
+	height: 0;
+	border-style: solid;
+	border-width: 0 9px 8px 9px;
+	border-color: transparent transparent #38b4ff transparent;
+	opacity: 1;
+}
+/*=======================================*/
+.kode-financial-buttons-medium,
+.kode-form-button,
+.button-small{
+	float:left;
+	width:100%;
+}
+.kode-financial-buttons-medium.white-bg a:hover,
+.kode-finacialService-slider .kodeslider-section .owl-item.active.center .kode-financial-silde a:hover,
+.kode-case3-caption a:hover{
+	background:#fff;
+}
+.kode-financial-buttons-medium a:hover,
+.kode-financial-consulting a:hover,
+.button-small a:hover{
+	color:#fff;
+	border-color:transparent;
+}
+.kode-financial-consulting-section .kode-financial-consulting a:hover{
+	background:#fff;
+}
+.kode-financial-buttons-medium a{
+	font-size:16px;
+}
+.kode-financial-buttons-medium a,
+.kode-financial-consulting a,
+.kode-banner2-caption > a,
+.kode-financial-accordian-button2 a{
+	display:inline-block;
+	padding:11px 20px 10px;
+	text-align:center;
+	font-size: 16px;
+	border:1px solid #fff;
+	color:#fff;
+}
+.kode-form-button a{
+	display:inline-block;
+	width:167px;
+	height:51px;
+	color:#fff;
+	text-transform:uppercase;
+	line-height:53px;
+	font-weight:600;
+	text-align:center;
+}
+.button-small a,
+.kode-financial-error404 ul li a{
+	width:166px;
+	height:48px;
+	line-height:48px;
+	text-align:center;
+	display:inline-block;
+	border:1px solid #fff;
+	font-weight:bold;
+	color:#fff;
+	
+}
+/*=============background color==========*/
+.blue{
+	background-color:#1a9ded;
+}
+.skybule{
+	background-color:#38b4ff;
+}
+/*========================================*/
+/*==========HEADING STYLE=================*/
+.kode-financial-title{
+	text-align:center;
+	margin:0 auto 17px;
+	width:80%;
+}
+.kode-financial-title h6{
+	color:#666666;
+	font-style:italic;
+	margin-bottom:19px;
+	line-height: 12px;
+}
+.kode-financial-title h2{
+	font-size:30px;
+	font-weight:bold;
+	color:#666666;
+	text-transform:uppercase;
+	margin-bottom:8px;
+}
+.kode-financial-title span{
+	position:relative;
+	width:5px;
+	height:5px;
+	display:inline-block;
+}
+.kode-financial-title p{
+	margin-top:9px;
+}
+
+.dosts-white{
+	background-color:#fff;
+}
+.dosts-black{
+	background-color:#666666;
+}
+.dosts-dark-black{
+	background-color:#333;
+}
+/*
+	================================
+		PAGINATIONS
+	================================
+*/
+.kode-financial-pagination,
+.kode-financial-pagination ul{
+	float: left;
+	width:100%;
+}
+.kode-financial-pagination ul{
+	text-align: center;
+}
+.kode-financial-pagination ul li{
+	display: inline-block;666666
+}
+.kode-financial-pagination ul li a{
+	width:28px;
+	height: 28px;
+	border:1px solid transparent;
+	font-size: 15px;
+	color: #666;
+	text-align: center;
+	line-height: 25px;
+	display: inline-block;
+}
+.kode-financial-pagination ul li sub{
+	color:#666;
+}
+.kode-financial-pagination ul li:active a,
+.kode-financial-pagination ul li:hover a{
+	background-color: #1a9ded;
+	color:#fff;
+	border-color:#e4e3e3;
+}
+.kode-financial-pagination .green li:active a,
+.kode-financial-pagination .green li:hover a{
+	background-color: #27ae61;
+	color:#fff;
+	border-color:#e4e3e3;
+}
+
+/*
+===========================================
+	Banner inner styleing
+==========================================
+*/
+
+#sync1 .item{
+    padding: 0px 0px;
+    margin: 0px;
+    color: #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    position: relative;
+}
+#sync2 .item{
+    float: left;
+    padding: 0px 0px;
+    margin: 0px;
+    color: #FFF;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    text-align: center;
+    cursor: pointer;
+}
+#sync2 .item h1{
+  font-size: 18px;
+}
+#sync2 .synced .item{
+  background: #0c83e7;
+  float: left;
+}
+.kode-silder .container #sync2 .owl-item.active {
+	float: left;
+}
+#sync2 .owl-nav.disabled{
+	display: none;
+}
+/*
+===========================================
+	Banner inner styleing ends
+==========================================
+*/
+
+/*===============================================*/
+/*============= Place holder colors==============*/
+/*===============================================*/
+
+.kode-input-texting input::-webkit-input-placeholder,
+.kode-form-section:-moz-input-placeholder,
+.kode-input-texting input:-moz-placeholder,
+.kode-input-texting input::-moz-placeholder,
+.kode-input-texting input:-ms-input-placeholder {
+   color:#ffffff;
+}
+.kode-financial-footer .kode-entry-mail form input::-webkit-input-placeholder{color:#fff;}
+.kode-financial-footer .kode-entry-mail form input:-moz-input-placeholder{color:#fff;}
+.kode-financial-footer .kode-entry-mail form input:-moz-placeholder{color:#fff;}
+.kode-financial-footer .kode-entry-mail form input::-moz-placeholder{color:#fff;}
+.kode-financial-footer .kode-entry-mail form input:-ms-input-placeholder {color:#fff;}
+
+
+.kode-form-section:-moz-input-placeholder{
+	color:#ffffff;
+}
+.kode-input-texting input::-webkit-input-placeholder {
+   color:#ffffff;
+}
+.kode-input-texting input:-moz-placeholder { /* Firefox 18- */
+  color:#ffffff;
+}
+.kode-input-texting input::-moz-placeholder {  /* Firefox 19+ */
+   color:#ffffff; 
+}
+.kode-input-texting input:-ms-input-placeholder {  
+   color:#ffffff;
+}
+
+
+.kode-form-wrap form input:-moz-input-placeholder{
+	color:#ffffff;
+}
+.kode-form-wrap form input::-webkit-input-placeholder {
+   color:#ffffff;
+}
+.kode-form-wrap form input:-moz-placeholder { /* Firefox 18- */
+  color:#ffffff;
+}
+.kode-form-wrap form input::-moz-placeholder {  /* Firefox 19+ */
+   color:#ffffff; 
+}
+.kode-form-wrap form input:-ms-input-placeholder {  
+   color:#ffffff;
+}
+
+
+
+
+
+/*
+============================================================
+			Banner home page one 
+==============================================================
+*/
+
+.kode-financial-banner .financial-silder .owl-item.active .financial-silder-caption.slide01 h4{
+	
+	-webkit-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
+}
+.kode-financial-banner .financial-silder .owl-item.active .financial-silder-caption.slide01 h3{
+	-webkit-animation-name: fadeInRight;
+	animation-name: fadeInRight;
+}
+.kode-financial-banner .financial-silder .owl-item.active .financial-silder-caption.slide01 a{
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
+
+.kode-financial-banner .financial-silder .owl-item.active .financial-silder-caption.slide02 h4{
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+}
+.kode-financial-banner .financial-silder .owl-item.active .financial-silder-caption.slide02 h3{
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
+.kode-financial-banner .financial-silder .owl-item.active .financial-silder-caption.slide02 a{
+	-webkit-animation-name:slideInUp;
+	animation-name: slideInUp;
+}
+
+.kode-financial-banner .financial-silder .owl-item.active .financial-silder-caption.slide03 h4{
+	-webkit-animation-name: fadeInDown;
+	animation-name: fadeInDown;
+}
+.kode-financial-banner .financial-silder .owl-item.active .financial-silder-caption.slide03 h3{
+	-webkit-animation-name: fadeIn;
+	animation-name: fadeIn;
+}
+.kode-financial-banner .financial-silder .owl-item.active .financial-silder-caption.slide03 a{
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
+
+.kode-financial-banner .financial-silder .owl-item.active .financial-silder-caption.slide04 h4{
+	-webkit-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
+}
+.kode-financial-banner .financial-silder .owl-item.active .financial-silder-caption.slide04 h3{
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
+.kode-financial-banner .financial-silder .owl-item.active .financial-silder-caption.slide04 a{
+	-webkit-animation-name: fadeInRight;
+	animation-name: fadeInRight;
+}
+
+/*
+============================================================
+			Banner home 2 page 
+==============================================================
+*/
+.kode-financial-banner2 .kode-financial-banner .financial-silder .owl-item.active .financial-silder-caption.slide01 h4{
+	
+	-webkit-animation-name: fadeInLeft;
+	animation-name: fadeInLeft;
+}
+.kode-financial-banner2  .kode-financial-banner .financial-silder .owl-item.active .financial-silder-caption.slide01 h3 span:first-child{
+	-webkit-animation-name: fadeInRight;
+	animation-name: fadeInRight;
+}
+.kode-financial-banner2  .kode-financial-banner .financial-silder .owl-item.active .financial-silder-caption.slide01 h3 span:last-child{
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+	animation-dely:3s;
+}
+.kode-financial-banner2  .kode-financial-banner .financial-silder .owl-item.active .financial-silder-caption.slide01 a{
+	-webkit-animation-name: fadeInUp;
+	animation-name: fadeInUp;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
